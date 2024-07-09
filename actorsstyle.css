@@ -1,0 +1,221 @@
+.red {
+    color: #ef5350;
+}
+
+.orange {
+    color: #fd6b0d;
+}
+
+
+yellow {
+    color: #e5af0e;
+}
+
+.green {
+    color: #2e7d32;
+}
+
+.cyan {
+    color: #3f9489;
+}
+
+.blue {
+    color: #0277bd;
+}
+
+.grey {
+    color: #484848;
+}
+
+.borders {
+    color: cadetblue;
+}
+
+body {
+    font-family: 'Roboto';
+    
+}
+
+body h1, h2, h3, h4, h5, p {
+    color: #484848;
+}
+
+body h1 {
+    text-align: center;
+}
+
+i {
+    color: #e5af0e;
+}
+
+.card {
+    flex-basis: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 100px;
+}
+
+.card-container {
+    max-width: 1100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inner-card-container {
+    margin: 0px 20px 30px 20px;
+}
+
+ img {
+    display: flex;
+    justify-content: center;
+} 
+
+.img img {
+    margin: -75px 20px 10px 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* margin-top: -75px; */
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img img:hover {
+    transform: translate3d(0, -5px, 0);
+    transition: transform 0.35s;
+}
+
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name h2 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name h5 {
+    text-align: right;
+    margin-top: 0;
+    color: green;
+} 
+
+.name .notwinner {
+    color: cadetblue;
+}
+
+.name .o-nominated {
+    color: #e5af0e;
+}
+
+.name .pro {
+    color: #fd6b0d;
+}
+
+.film-info {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid cadetblue;
+    border-bottom: 1px solid cadetblue;
+}
+
+.film-logo img {
+    width: 90px;
+    height: 131px;
+}
+
+.film-description {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.detailed-description {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.detailed-description h3 {
+    margin-bottom: 0px;
+}
+
+
+.film-description p {
+    margin: 0;
+}
+
+.imdb {
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-top: 0
+}
+
+.imdb img {
+    height: 25px;
+}
+
+
+.actor-content {
+    width: 300px;
+}
+
+.actor-content h4 {
+    margin-bottom: 0px;
+}
+
+.actor-content p {
+    margin-top: 8px;
+}
+
+
+.award {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+
+.award .award-avatar img {
+    width: 30px;
+}
+
+.award-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 14px;
+    line-height: 1.4;
+    padding-left: 2em;
+}
+
+.award-info h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.oscar {
+    color: green;
+}
+
+
+.nomination {
+    color: #e5af0e;
+}
+
+.no-oscar, .no-nomination {
+    color: #484848;
+}
